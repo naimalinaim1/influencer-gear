@@ -1,0 +1,60 @@
+
+/* google font inter and  poppins */
+/* inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* utilities or common css */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+/* header container width */
+.header-container {
+    width: 98%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* extra font */
+/* * {
+    font-family: 'Inter', sans-serif;
+} */
+
+/* header style */
+.header-area {
+    background: #FFFFFF;
+}
+/*top header*/
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.logo {
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.menu {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    list-style: none;
+}
+.menu-item {
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
